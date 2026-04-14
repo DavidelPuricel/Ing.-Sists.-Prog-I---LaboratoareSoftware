@@ -69,7 +69,6 @@ public class NewIntCalculatorTest {
         Assertions.assertEquals(5, calc.getState());
     }
 
-    // EXERCITIUL 2
     @Test
     public void testDivideBy0() {
         calc.add(10);
@@ -77,5 +76,6 @@ public class NewIntCalculatorTest {
         Assertions.assertThrows(ArithmeticException.class, () -> {
             calc.divide(0);
         });
+
     }
 }

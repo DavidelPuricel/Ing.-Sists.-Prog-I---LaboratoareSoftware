@@ -69,7 +69,6 @@ public class DoubleCalculatorTest {
         Assertions.assertEquals(5.0, calc.getState(), 0.0001);
     }
 
-    // EXERCITIUL 2
     @Test
     public void testDivideBy0() {
         calc.add(10.0);
